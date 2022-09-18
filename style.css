@@ -105,7 +105,7 @@ li {
   margin-right: 2rem;
 }
 
-.nav-items__ {
+.drop .nav-items__ {
   clip-path: circle(40px);
   background: hsla(0, 0%, 100%, 0.15);
 }
