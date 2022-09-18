@@ -1,0 +1,111 @@
+@font-face {
+  font-family: poppins_r;
+  src: url(Fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: poppins_b;
+  src: url(Fonts/Poppins-SemiBold.ttf);
+}
+/* ---------general styling---------------- */
+*,
+*::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 10vh;
+}
+
+body {
+  font-family: "poppins_r";
+}
+
+li {
+  list-style: none;
+}
+
+/* ----------Start-------------- */
+
+.navigation {
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 39%,
+    rgba(0, 0, 82, 1) 100%
+  );
+  color: #fff;
+  font-size: 1.05rem;
+  display: flex;
+  align-items: center;
+  height: 3.5rem;
+}
+
+.navigation:nth-child(even) {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.nav_left {
+  display: flex;
+  column-gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_right {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.nav_rightside {
+  display: flex;
+}
+
+.lang {
+  display: none;
+}
+
+.icon_fifa {
+  width: 80%;
+  transform: translate(10%, 10%);
+}
+
+.hamburger {
+  background-color: #fff;
+  position: relative;
+  margin-left: 1.5rem;
+  width: 15px;
+  height: 2.4px;
+}
+
+.hamburger::after,
+.hamburger::before {
+  position: absolute;
+  content: "";
+  background-color: #fff;
+  width: 15px;
+  height: 2.4px;
+}
+
+.hamburger::before {
+  transform: translateY(-7px);
+}
+
+.hamburger::after {
+  transform: translateY(7px);
+}
+
+.nav_rightside > * {
+  margin-right: 2rem;
+}
+
+.nav-items__ {
+  clip-path: circle(40px);
+  background: hsla(0, 0%, 100%, 0.15);
+}
