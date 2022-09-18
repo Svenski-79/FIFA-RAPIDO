@@ -125,7 +125,7 @@ img {
 }
 
 .hero_image {
-  height: 98vh;
+  height: 107vh;
   object-fit: cover;
 }
 
@@ -155,4 +155,15 @@ img {
   border: 3px solid #fff;
   border-radius: 20px;
   padding: 0.4rem 1rem;
+}
+
+/* ------ timer ---------- */
+
+#time {
+  color: #fff;
+  background: linear-gradient(
+    0deg,
+    rgba(210, 10, 70, 0.85),
+    rgba(138, 21, 56, 0.85)
+  );
 }
