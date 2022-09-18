@@ -29,6 +29,10 @@ li {
   list-style: none;
 }
 
+img {
+  width: 100%;
+}
+
 /* ----------Start-------------- */
 
 .navigation {
@@ -42,6 +46,9 @@ li {
   display: flex;
   align-items: center;
   height: 3.5rem;
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
 }
 
 .navigation:nth-child(even) {
@@ -65,6 +72,7 @@ li {
 
 .nav_rightside {
   display: flex;
+  align-items: center;
 }
 
 .lang {
@@ -108,4 +116,11 @@ li {
 .drop .nav-items__ {
   clip-path: circle(40px);
   background: hsla(0, 0%, 100%, 0.15);
+}
+
+/* -----hero page -------- */
+
+.hero_container {
+  position: relative;
+  height: 90vh;
 }
